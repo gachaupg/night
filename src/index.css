@@ -1,0 +1,49 @@
+.header {
+  height: 5rem;
+  background: #000;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 7rem ;
+  padding-right: 7rem ;
+}
+
+p {
+  width: 75%;
+  margin-left: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  margin-left: 9rem;
+
+}
+@media only screen and (max-width: 600px) {
+  p {
+    width: 100% !important;
+    margin-left: 1rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text{
+    margin-left: 1rem;
+
+  }
+  .main {
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
